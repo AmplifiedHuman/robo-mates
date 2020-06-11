@@ -1,16 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./assets/style.css";
-import Card from "./Card";
+import CardList from "./CardList";
 import { robots } from "./robots";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="roboto">
-      <Card name={robots[0].name} email={robots[0].email} />
-      <Card name={robots[0].name} email={robots[0].email} />
-      <Card name={robots[0].name} email={robots[0].email} />
-    </div>
+    <CardList robots={robots} />
   </React.StrictMode>,
   document.getElementById("root")
 );
