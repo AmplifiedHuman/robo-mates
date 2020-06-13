@@ -1,20 +1,25 @@
 import React from "react";
 import CardList from "./CardList";
 import Search from "./Search";
-import { robots } from "./robots";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       searchField: "",
-      robots: robots,
+      robots: [],
     };
   }
 
   onSearchChange = (event) => {
     this.setState({ searchField: event.target.value });
   };
+
+  componentDidMount() {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((res) => res.json())
+      .then((users) => this.setState({ robots: users }));
+  }
 
   render() {
     const filteredRobots = this.state.robots.filter((robot) => {
