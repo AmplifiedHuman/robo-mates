@@ -31,7 +31,7 @@ class App extends React.Component {
     });
 
     let content =
-      this.state.robots.length > 0 ? (
+      this.state.robots.length === 0 ? (
         <div className="loading-animation mt-32">
           <Spinner
             name="folding-cube"
@@ -46,7 +46,7 @@ class App extends React.Component {
     return (
       <div>
         <h1 className="text-6xl text-center p-6 robot text-pink-800 tracking-wide">
-          ROBO FRIENDS
+          Robo Mates
         </h1>
         <Search searchChange={this.onSearchChange} />
         <ErrorBoundary>{content}</ErrorBoundary>

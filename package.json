@@ -1,6 +1,7 @@
 {
-  "name": "robo-friends",
-  "version": "0.1.0",
+  "name": "robo-mates",
+  "homepage": "https://amplifiedhuman.github.io/robot-mates",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -17,7 +18,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:css": "npx tailwindcss build src/assets/tailwind.css -o src/assets/style.css",
-    "watch:css": "postcss src/assets/tailwind.css -o src/assets/style.css"
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/style.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
