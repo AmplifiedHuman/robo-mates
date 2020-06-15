@@ -2,7 +2,7 @@ import React from "react";
 import CardList from "../components/CardList";
 import Search from "../components/Search";
 import ErrorBoundary from "../components/ErrorBoundary";
-import Spinner from "react-spinkit";
+import HashLoader from "react-spinners/HashLoader";
 
 class App extends React.Component {
   constructor(props) {
@@ -31,13 +31,9 @@ class App extends React.Component {
     });
 
     let content =
-      this.state.robots.length === 0 ? (
-        <div className="loading-animation mt-32">
-          <Spinner
-            name="folding-cube"
-            className="m-auto w-full h-full"
-            color="white"
-          />
+      this.state.robots.length > 0 ? (
+        <div className="flex justify-center m-32">
+          <HashLoader size={100} color={"#ffffff"} />
         </div>
       ) : (
         <CardList robots={filteredRobots} />
