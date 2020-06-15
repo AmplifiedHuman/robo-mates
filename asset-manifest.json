@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/robo-mates/static/css/main.37e183ec.chunk.css",
-    "main.js": "/robo-mates/static/js/main.f60fd59e.chunk.js",
-    "main.js.map": "/robo-mates/static/js/main.f60fd59e.chunk.js.map",
+    "main.js": "/robo-mates/static/js/main.8a1c5f88.chunk.js",
+    "main.js.map": "/robo-mates/static/js/main.8a1c5f88.chunk.js.map",
     "runtime-main.js": "/robo-mates/static/js/runtime-main.3bf70206.js",
     "runtime-main.js.map": "/robo-mates/static/js/runtime-main.3bf70206.js.map",
     "static/js/2.42536c28.chunk.js": "/robo-mates/static/js/2.42536c28.chunk.js",
     "static/js/2.42536c28.chunk.js.map": "/robo-mates/static/js/2.42536c28.chunk.js.map",
     "index.html": "/robo-mates/index.html",
-    "precache-manifest.c8cac61f567e86cbf8fa65a0a0d27467.js": "/robo-mates/precache-manifest.c8cac61f567e86cbf8fa65a0a0d27467.js",
+    "precache-manifest.f9f405e7ec5a5e61c8f4dfb40303d249.js": "/robo-mates/precache-manifest.f9f405e7ec5a5e61c8f4dfb40303d249.js",
     "service-worker.js": "/robo-mates/service-worker.js",
     "static/css/main.37e183ec.chunk.css.map": "/robo-mates/static/css/main.37e183ec.chunk.css.map",
     "static/js/2.42536c28.chunk.js.LICENSE.txt": "/robo-mates/static/js/2.42536c28.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.3bf70206.js",
     "static/js/2.42536c28.chunk.js",
     "static/css/main.37e183ec.chunk.css",
-    "static/js/main.f60fd59e.chunk.js"
+    "static/js/main.8a1c5f88.chunk.js"
   ]
 }
