@@ -31,7 +31,7 @@ class App extends React.Component {
     });
 
     let content =
-      this.state.robots.length > 0 ? (
+      this.state.robots.length === 0 ? (
         <div className="flex justify-center m-32">
           <HashLoader size={100} color={"#ffffff"} />
         </div>
